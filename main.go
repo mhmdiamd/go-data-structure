@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	binarysearch "github.com/mhmdiamd/go-data-structure/binary_search"
+)
 
 const SIZE = 5
 
@@ -104,12 +108,22 @@ func (q *Queue) Display() {
 func main() {
   fmt.Println("Start Cache")
 
-  cache := NewCache()
+  // cache := NewCache()
+  //
+  // for _ , word := range []string{"parrot", "Avocado", "dragon fruit","tree", "potato", "tomato", "tree"}{
+  //   cache.Check(word)
+  //   cache.Display()
+  // }
 
-  for _ , word := range []string{"parrot", "Avocado", "dragon fruit","tree", "potato", "tomato", "tree"}{
-    cache.Check(word)
-    cache.Display()
-  }
+  // ============== Linked List =============
+  // linkedlist.ExecLinkedList()
+
+  // ============== Stack & Queue =============
+  // stackqueue.ExecStack()
+  // stackqueue.ExecQueue()
+
+  // ============== Binary Trees =============
+  // binarysearch.ExecBinaryTree()
 }
 
 
