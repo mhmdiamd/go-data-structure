@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 
-	binarysearch "github.com/mhmdiamd/go-data-structure/binary_search"
+	hashtable "github.com/mhmdiamd/go-data-structure/hash_table"
+	// binarysearch "github.com/mhmdiamd/go-data-structure/binary_search"
 )
 
 const SIZE = 5
@@ -124,6 +125,9 @@ func main() {
 
   // ============== Binary Trees =============
   // binarysearch.ExecBinaryTree()
+
+  // ============== Hash Table =============
+  hashtable.ExecHashTable()
 }
 
 
